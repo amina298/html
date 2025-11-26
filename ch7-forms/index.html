@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+    
+        <fieldset>
+            <legend><strong>Student Information</strong></legend>
+    
+            <label>Full Name:</label><br>
+            <input type="text" name="fullName" required><br><br>
+    
+            <label>Date of Birth:</label><br>
+            <input type="date" name="dob" required><br><br>
+    
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            
+            <br><br>
+    
+            <label>Class to Join:</label><br>
+            <select name="class">
+                <option>PP1</option>
+                <option>PP2</option>
+                <option>Grade 1</option>
+                <option>Grade 2</option>
+                <option>Grade 3</option>
+                <option>Form 1</option>
+                <option>Form 2</option>
+                <option>Form 3</option>
+                <option>Form 4</option>
+            </select>
+            <br><br>
+        </fieldset>
+    
+    
+        <br>
+    
+        <fieldset>
+            <legend><strong>Parent / Guardian Information</strong></legend>
+    
+            <label>Parent/Guardian Name:</label><br>
+            <input type="text" name="parentName" required><br><br>
+    
+            <label>Phone Number:</label><br>
+            <input type="tel" name="phone" required><br><br>
+    
+            <label>Email Address:</label><br>
+            <input type="email" name="email"><br><br>
+    
+            <label>Home Address:</label><br>
+            <input type="text" name="address" required><br><br>
+        </fieldset>
+    
+    
+        <br>
+    
+        <fieldset>
+            <legend><strong>Additional Details</strong></legend>
+    
+            <label>Previous School (if any):</label><br>
+            <input type="text" name="previousSchool"><br><br>
+    
+            <label>Upload Birth Certificate:</label><br>
+            <input type="file" name="certificate"><br><br>
+    
+            <label>Additional Notes:</label><br>
+            <textarea name="notes" rows="4" cols="40"></textarea><br><br>
+        </fieldset>
+    
+        <br>
+    
+        <button type="submit">Submit Registration</button>
+    
+    </form>
+</body>
+</html>
